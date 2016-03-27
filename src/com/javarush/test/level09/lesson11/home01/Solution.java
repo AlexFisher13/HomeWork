@@ -14,12 +14,7 @@ public class Solution {
             divisionByZero();
         }
         catch (Exception e){
-            e.printStackTrace(System.out);
-            StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
-            for (StackTraceElement element : stackTraceElements)
-            {
-                System.out.println(element.getMethodName());
-            }
+            e.printStackTrace();
         }
     }
     public static void divisionByZero()
