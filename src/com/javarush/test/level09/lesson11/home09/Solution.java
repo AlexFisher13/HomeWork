@@ -9,7 +9,7 @@ import java.util.Set;
 Создать класс кот – Cat, с полем «имя» (String).
 Создать словарь Map(<String, Cat>) и добавить туда 10 котов в виде «Имя»-«Кот».
 Получить из Map множество(Set) всех имен и вывести его на экран.
-*/
+
 
 public class Solution
 {
@@ -67,3 +67,4 @@ public class Solution
 
 
 }
+*/
