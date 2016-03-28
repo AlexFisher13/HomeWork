@@ -39,18 +39,17 @@ public class Solution
 
     public static Set<Cat> convertMapToSet(Map<String, Cat> map)
     {
-        Set<Cat> cats = new HashSet<Cat>();
-        for (HashMap<String, Cat> e : map.values()) {
-            cats.add(map.get(e));
+        Set<Cat> cats = new HashSet<>();
+        for (Cat cat : map.values())
+        {
+            cats.add(cat);
         }
+        return cats;
     }
 
     public static void printCatSet(Set<Cat> set)
     {
-        for (Cat cat:set)
-        {
-            System.out.println(cat);
-        }
+        System.out.println(set);
     }
 
     public static class Cat
